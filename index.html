@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            function openNewLetter() {
+                // Display the alert
+                alert("DONT CLICK OK PLEASE");
+                
+                // Redirect to another page after clicking OK
+                window.location.href = "index2.html";
+            }
+        
+            $(document).ready(function () {
+                $('.container').mouseenter(function () {
+                    $('.card').stop().animate({
+                        top: '-90px'
+                    }, 'slow');
+                }).mouseleave(function () {
+                    $('.card').stop().animate({
+                        top: 0
+                    }, 'slow');
+                });
+        
+                $('#letter').click(function() {
+                    openNewLetter();
+                });
+            });
+        </script>
+        
+
+    </head> 
+        <body>
+            <div class="container">  
+                <div class="valentines">
+                <div class="envelope"></div>
+                <div class="front"></div>
+                <div class="card">
+                <div class="text" id="letter">Happy</br> 6st Months</br> Elle!</div>
+                <div class="heart"</div>
+                </div>
+                <div class="hearts">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                    <div class="four"></div>
+                    <div class="five"></div>
+                </div>
+                </div>
+                </div>
+                <div class="shadow"></div>
+                </div>
+        </body>
+</html>

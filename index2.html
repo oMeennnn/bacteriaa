@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar">
+            <div>
+                <h1> <a href="index.html">11.15.2023</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             POLAROID CAM</h1>
+
+            </div>
+                
+
+    </header>
+
+    <div class="polaroid-camera">
+        <button id="button"></button>
+        <div id="circle"></div>
+        <div class="lens">
+          <div class="reflection"></div>
+        </div>
+        <div class="flash"></div>
+        <div class="stripes"></div>
+        <div class="bottom">
+          <div class="bottom-front"></div>
+        </div>
+        <div class="slot"></div>
+        <div class="shadow"></div>
+        <div id="photo" class="photo">
+          
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        
+                document.getElementById("button").addEventListener("click", function() {
+            var photoContainer = document.getElementById("photo");
+           
+            photoContainer.style.backgroundImage = "url('usss.jpg')";
+            photoContainer.classList.add("eject-photo");
+        });
+
+    </script>
+
+
+</body>
+</html>
